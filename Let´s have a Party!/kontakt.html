@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Eine kleine, aber wachsende Sammlung Kurioser Feiertage.">
+    <meta name="keywords" content="kalender feiertag party knotonium">
+    <meta name="author" content="Nicole Forouhar">
+    <meta name="author" content="Knotonium">
+
+    <title>Kontakt&Newsletter</title>
+    <!-- Schriftart -->
+    <link href="https://fonts.googleapis.com/css?family=Barrio|Roboto:300&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/kontakt.css">
+</head>
+
+<body>
+    <div class="main_cont">
+        <div class="top_cont">
+            <!-- Navigation/Menü -->
+            <nav class="menu">
+                <a class="menu_head" href="#">Menü</a>
+                <ul class="menu_list">
+                    <li class="menu_item">
+                        <a href="index.html" class="menu_link">Intro</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="about.html" class="menu_link">Projekt</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="kalender.html" class="menu_link">Kalender</a>
+                    </li>
+                    <li class="menu_item active">
+                        <a href="kontakt.html" class="menu_link">Kontakt</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="impressum.html" class="menu_link">Impressum</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Überschrift mit Subtext -->
+            <header class="head_box text_box">
+                <h1 class="head_title">Let´s have a party!</h1>
+                <p class="head_subtitle">Das könnte der Beginn einer wunderbaren Brieffreundschaft sein</p>
+            </header>
+        </div>
+
+        <!-- Formular -->
+        <div class="cont_content">
+            <section class="cont_sect cont_sect_0">
+                <h2 class="sect_title">
+                    Kontakt & Newsletter
+                </h2>
+                <div class="text_box_content text_box">
+                    <form action="mailto:knotonium@protonmail.com" method="post" enctype="text/plain"></form>
+                    <p>Hast du Ideen, Wünsche, Fragen oder Kritik für uns? Wir freuen uns immer über konstruktives Feedback! <br> Nutze am besten dieses Kontaktformular:</p>
+                    <!-- [placeholder] zeigt den Text grau an, was man selber eintippt ist dann schwarz bzw die farbe, die man eingestellt hat-->
+                    <textarea name="message" rows="20" cols="51" placeholder="Tippe hier deinen Text ein"></textarea>
+                    <br>
+                    <textarea name="mail" rows="1" cols="33" placeholder="Trage hier deine E-Mail-Adresse ein"></textarea>
+                    <br>
+                    <!-- checkbox newsletter bereits angehakt -->
+                    <input type="checkbox" name="newsletter" value="news" checked> Newsletter abonnieren (maximal 4 Mails pro Jahr)
+                    <br>
+                    <!-- senden Button -->
+                    <input type="submit" class="butn" name="senden" value="Ab die Post!">
+                </div>
+                <a href="impressum.html" class="linki">Impressum &#8667;</a>
+            </section>
+        </div>
+        <!-- Footer -->
+        <div class="bottom_cont">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+            <footer>
+                Knotonium 2019
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
